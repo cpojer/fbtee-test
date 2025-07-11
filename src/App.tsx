@@ -1499,6 +1499,7 @@ const LocaleSwitcher = () => {
           </div>
         </div>
       </footer>
+      <fbt desc="New string label">New String</fbt>
     </div>
   );
 }
