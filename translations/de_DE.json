@@ -1444,11 +1444,21 @@
     },
     "6/ZbJcEx19aXKls64qknkg==": {
       "description": "Locale switcher button",
-      "status": "new",
       "tokens": [],
       "translations": [
         {
           "translation": "Sprache ändern",
+          "variations": {}
+        }
+      ],
+      "types": []
+    },
+    "3Fw/JirHVQCeYVHqYcwkAQ==": {
+      "description": "New strings label",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "New Strings",
           "variations": {}
         }
       ],
