@@ -970,16 +970,488 @@
       "types": []
     },
     "6/ZbJcEx19aXKls64qknkg==": {
-      "description": "Locale switcher button",
-      "status": "new",
       "tokens": [],
+      "types": [],
+      "status": "translated",
       "translations": [
         {
-          "translation": "Sprache ändern",
-          "variations": {}
+          "translation": "Sprache wechseln",
+          "variations": []
         }
-      ],
-      "types": []
+      ]
+    },
+    "HOI4qkpGnEfVV7IWRVVhMw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "fbtee",
+          "variations": []
+        }
+      ]
+    },
+    "DMCQ1tp7mc+EZ55+71TdUA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Web-App-Vorlage",
+          "variations": []
+        }
+      ]
+    },
+    "T45ZbBruXjGB/by5xOR7ow==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Komplette Webanwendungs-Setup mit Vite und React",
+          "variations": []
+        }
+      ]
+    },
+    "+cCnj8bOzMV+WbaBvtN0sg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Vorlage verwenden",
+          "variations": []
+        }
+      ]
+    },
+    "gdAiCCpPwzIulcmoDbooEg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Expo App Vorlage",
+          "variations": []
+        }
+      ]
+    },
+    "nlLGLYi/l3Pbrx7034dXOQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "React Native mit Expo Setup für mobile Apps",
+          "variations": []
+        }
+      ]
+    },
+    "fXyZo7XCtl8HVonWK1x+1w==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Manuelle Installation",
+          "variations": []
+        }
+      ]
+    },
+    "y8rvXwPvHELbND3UCqRpYA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{=Anforderungen:} Node 22+, React 19+ (falls React verwendet wird)",
+          "variations": []
+        }
+      ]
+    },
+    "9NsZwnoMGl0KPYnzc3UAVg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Anforderungen:",
+          "variations": []
+        }
+      ]
+    },
+    "6rsQ77+auQMnifojc8qiVA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Framework Setup",
+          "variations": []
+        }
+      ]
+    },
+    "07f/GCPfC7XR1j5YaGIaTA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Installieren Sie das Vite React-Plugin und konfigurieren Sie Ihre vite.config.ts:",
+          "variations": []
+        }
+      ]
+    },
+    "SVLfBGjHRthMP9kussescw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Erstellen Sie eine babel.config.js-Datei im Stammverzeichnis Ihres Projekts:",
+          "variations": []
+        }
+      ]
+    },
+    "xhXGYhQ6K+V71ba06GgzvQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{=Next.js Tipp:} Schauen Sie sich das {=Next.js App fbtee Beispiel} für eine vollständige Einrichtung mit App Router und Server-Komponenten an.",
+          "variations": []
+        }
+      ]
+    },
+    "RH9xi/IVFMZpHZLP6++8NA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Next.js Tipp:",
+          "variations": []
+        }
+      ]
+    },
+    "Lvi1n/ZUfNDAlHZisYsrxA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Next.js App fbtee Beispiel",
+          "variations": []
+        }
+      ]
+    },
+    "URg1ydfsdm1CkjJlOwYNtQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Für benutzerdefinierte Babel-Setups fügen Sie das Preset zu Ihrer .babelrc oder babel.config.js hinzu:",
+          "variations": []
+        }
+      ]
+    },
+    "z1GmksAdwHDXNleFA8iZzA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Anleitung",
+          "variations": []
+        }
+      ]
+    },
+    "1cBQ72agh5WU3Wcbn6yKmw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Alles, was Sie wissen müssen, um {=fbtee} effektiv zu nutzen.",
+          "variations": []
+        }
+      ]
+    },
+    "q7pMKLLXTWuIwSLQL4hhCQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{=fbtee}",
+          "variations": []
+        }
+      ]
+    },
+    "jRRPiI3khD9ur0/Cxq4E8w==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "App-Setup",
+          "variations": []
+        }
+      ]
+    },
+    "VYsxlkc3OMRSmXhpZzTEtg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Richten Sie {=fbtee}s Laufzeitumgebung ein, um Lokale in Ihrer App zu verwalten. Fügen Sie zuerst TypeScript-Unterstützung hinzu:",
+          "variations": []
+        }
+      ]
+    },
+    "ZT8AKH4PUS59Z0KzAYXUBA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{=fbtee}",
+          "variations": []
+        }
+      ]
+    },
+    "AwoXXd9GjL99rG5VteeyiQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Erstellen Sie dann einen LocaleContext, um Übersetzungen zu verwalten:",
+          "variations": []
+        }
+      ]
+    },
+    "+XjHppHVcJzydgHiea8OQw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Verwendung",
+          "variations": []
+        }
+      ]
+    },
+    "KQ234chDORKpAE9Wi+szdg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Alle übersetzbaren Strings müssen mit {=<fbt>} oder {=fbt()} umschlossen werden:",
+          "variations": []
+        }
+      ]
+    },
+    "f4FO5zzwHv3uKZi7tXH9kg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "<fbt>",
+          "variations": []
+        }
+      ]
+    },
+    "OdKGx+2gWpMb8ODVaVlIcA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "fbt()",
+          "variations": []
+        }
+      ]
+    },
+    "pi/vl6o/HrM10sZlafe75g==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Vorher",
+          "variations": []
+        }
+      ]
+    },
+    "yWcskzN9tcKQQS0gizrTIw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Nachher",
+          "variations": []
+        }
+      ]
+    },
+    "MGhQMvfdx7YOT7HsLPuE1Q==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{=Hinweis:} Das {=desc}-Attribut ist erforderlich und bietet Übersetzern Kontext. {=<fbt>} wird automatisch vom Babel-Preset importiert.",
+          "variations": []
+        }
+      ]
+    },
+    "Ji+ZSAy6pvCaeU8xcEz5CA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Hinweis:",
+          "variations": []
+        }
+      ]
+    },
+    "pJijCqsdiVqbruv5Y9Mprw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "desc",
+          "variations": []
+        }
+      ]
+    },
+    "uTCnEkcojX0/2eOXCjHzhg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "<fbt>",
+          "variations": []
+        }
+      ]
+    },
+    "3MmQF/3KhnTBURnswKgLKw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Dynamischer Inhalt",
+          "variations": []
+        }
+      ]
+    },
+    "VCAdOF1lfa4ODfE+xMVlAA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Verwenden Sie {=<fbt:param>} zum Einfügen von Variablen und React-Komponenten:",
+          "variations": []
+        }
+      ]
+    },
+    "Pmtg41ZMoBZWDO8wN3I4yA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "<fbt:param>",
+          "variations": []
+        }
+      ]
+    },
+    "4r+UzWLdG09uofFvGnED6Q==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Parameter",
+          "variations": []
+        }
+      ]
+    },
+    "7M4hsn9/uv67UiYw9F5z7w==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Komponenten",
+          "variations": []
+        }
+      ]
+    },
+    "XDevh+92VUnyXJEVQ9dJtg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "React-Komponenten werden automatisch in {=<fbt:param>} umgewandelt:",
+          "variations": []
+        }
+      ]
+    },
+    "52s1Ppy4jJL+I3dDXWytgA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "<fbt:param>",
+          "variations": []
+        }
+      ]
+    },
+    "JeqqcSUwdTueCm92kJgw9Q==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Listen & Konjunktionen",
+          "variations": []
+        }
+      ]
+    },
+    "CovVNe0jaw6i3lRS+kOW1A==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{=<fbt:list>} verarbeitet grammatikalische Listen mit passenden Konjunktionen:",
+          "variations": []
+        }
+      ]
+    },
+    "/HLRFgU8HIN5JxSyOta0uA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "<fbt:list>",
+          "variations": []
+        }
+      ]
     }
   }
 }
