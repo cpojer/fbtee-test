@@ -970,16 +970,532 @@
       "types": []
     },
     "6/ZbJcEx19aXKls64qknkg==": {
-      "description": "Locale switcher button",
-      "status": "new",
+      "types": [],
+      "status": "translated",
       "tokens": [],
+      "description": "Locale switcher button",
       "translations": [
         {
-          "translation": "Sprache ändern",
-          "variations": {}
+          "variations": {},
+          "translation": "Sprache wechseln"
         }
-      ],
-      "types": []
+      ]
+    },
+    "HOI4qkpGnEfVV7IWRVVhMw==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"Skip the setup hassle! These templates come with {=fbtee} pre-configured and ready to go:\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "fbtee"
+        }
+      ]
+    },
+    "DMCQ1tp7mc+EZ55+71TdUA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Headline",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Web App Vorlage"
+        }
+      ]
+    },
+    "T45ZbBruXjGB/by5xOR7ow==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Web app template description",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Komplette Webanwendungs-Setup mit Vite und React"
+        }
+      ]
+    },
+    "+cCnj8bOzMV+WbaBvtN0sg==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Use template link",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Template verwenden"
+        }
+      ]
+    },
+    "gdAiCCpPwzIulcmoDbooEg==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Headline",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Expo App Vorlage"
+        }
+      ]
+    },
+    "nlLGLYi/l3Pbrx7034dXOQ==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Expo app template description",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "React Native mit Expo für mobile Apps eingerichtet"
+        }
+      ]
+    },
+    "fXyZo7XCtl8HVonWK1x+1w==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Headline",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Manuelle Installation"
+        }
+      ]
+    },
+    "y8rvXwPvHELbND3UCqRpYA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Manual installation description",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "{=Requirements:} Node 22+, React 19+ (bei Verwendung von React)"
+        }
+      ]
+    },
+    "9NsZwnoMGl0KPYnzc3UAVg==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"{=Requirements:} Node 22+, React 19+ (if using React)\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Anforderungen:"
+        }
+      ]
+    },
+    "6rsQ77+auQMnifojc8qiVA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Headline",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Framework Setup"
+        }
+      ]
+    },
+    "07f/GCPfC7XR1j5YaGIaTA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Vite setup instructions",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Installiere das Vite React Plugin und konfiguriere deine vite.config.ts:"
+        }
+      ]
+    },
+    "SVLfBGjHRthMP9kussescw==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Next.js setup instructions",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Erstelle eine babel.config.js Datei im Projektstamm:"
+        }
+      ]
+    },
+    "xhXGYhQ6K+V71ba06GgzvQ==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Next.js tip",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "{=Next.js Tip:} Schau dir das {=Next.js App fbtee Beispiel} für eine vollständige Einrichtung mit App Router und Server Components an."
+        }
+      ]
+    },
+    "RH9xi/IVFMZpHZLP6++8NA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"{=Next.js Tip:} Check out the {=Next.js App fbtee Example} for a complete setup with App Router and Server Components.\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Next.js Tipp:"
+        }
+      ]
+    },
+    "Lvi1n/ZUfNDAlHZisYsrxA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"{=Next.js Tip:} Check out the {=Next.js App fbtee Example} for a complete setup with App Router and Server Components.\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Next.js App fbtee Beispiel"
+        }
+      ]
+    },
+    "URg1ydfsdm1CkjJlOwYNtQ==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Babel setup instructions",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Für benutzerdefinierte Babel-Setups füge das Preset zu deiner .babelrc oder babel.config.js hinzu:"
+        }
+      ]
+    },
+    "z1GmksAdwHDXNleFA8iZzA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Headline",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Benutzungsanleitung"
+        }
+      ]
+    },
+    "1cBQ72agh5WU3Wcbn6yKmw==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Usage guide description",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Alles, was du wissen musst, um {=fbtee} effektiv zu nutzen."
+        }
+      ]
+    },
+    "q7pMKLLXTWuIwSLQL4hhCQ==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"Everything you need to know to use {=fbtee} effectively.\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "fbtee"
+        }
+      ]
+    },
+    "jRRPiI3khD9ur0/Cxq4E8w==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Headline",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "App-Setup"
+        }
+      ]
+    },
+    "VYsxlkc3OMRSmXhpZzTEtg==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "App setup description",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Richte {=fbtee}s Laufzeit ein, um Lokale in deiner App zu verwalten. Zuerst füge TypeScript-Unterstützung hinzu:"
+        }
+      ]
+    },
+    "ZT8AKH4PUS59Z0KzAYXUBA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"Set up {=fbtee}'s runtime to manage locales in your app. First, add TypeScript support:\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "fbtee"
+        }
+      ]
+    },
+    "AwoXXd9GjL99rG5VteeyiQ==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "LocaleContext setup description",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Erstelle dann einen LocaleContext, um Übersetzungen zu verwalten:"
+        }
+      ]
+    },
+    "+XjHppHVcJzydgHiea8OQw==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Headline",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Verwendung"
+        }
+      ]
+    },
+    "KQ234chDORKpAE9Wi+szdg==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Usage description",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Alle übersetzbaren Strings müssen mit {=<fbt>} oder {=fbt()}} umschlossen werden:"
+        }
+      ]
+    },
+    "f4FO5zzwHv3uKZi7tXH9kg==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"All translatable strings must be wrapped with {=<fbt>} or {=fbt()}:\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "<fbt>"
+        }
+      ]
+    },
+    "OdKGx+2gWpMb8ODVaVlIcA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"All translatable strings must be wrapped with {=<fbt>} or {=fbt()}:\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "fbt()"
+        }
+      ]
+    },
+    "pi/vl6o/HrM10sZlafe75g==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Before example label",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Vor"
+        }
+      ]
+    },
+    "yWcskzN9tcKQQS0gizrTIw==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "After example label",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Nach"
+        }
+      ]
+    },
+    "MGhQMvfdx7YOT7HsLPuE1Q==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Usage note",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "{=Note:} Das {=desc} Attribut ist erforderlich und bietet Übersetzern Kontext. {=<fbt>} wird automatisch vom Babel Preset importiert."
+        }
+      ]
+    },
+    "Ji+ZSAy6pvCaeU8xcEz5CA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"{=Note:} The {=desc} attribute is required and provides context for translators. {=<fbt>} is auto-imported by the Babel preset.\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Hinweis:"
+        }
+      ]
+    },
+    "pJijCqsdiVqbruv5Y9Mprw==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"{=Note:} The {=desc} attribute is required and provides context for translators. {=<fbt>} is auto-imported by the Babel preset.\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "desc"
+        }
+      ]
+    },
+    "uTCnEkcojX0/2eOXCjHzhg==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"{=Note:} The {=desc} attribute is required and provides context for translators. {=<fbt>} is auto-imported by the Babel preset.\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "<fbt>"
+        }
+      ]
+    },
+    "3MmQF/3KhnTBURnswKgLKw==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Headline",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Dynamischer Inhalt"
+        }
+      ]
+    },
+    "VCAdOF1lfa4ODfE+xMVlAA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Dynamic content description",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Verwende {=<fbt:param>} um Variablen und React-Komponenten einzufügen:"
+        }
+      ]
+    },
+    "Pmtg41ZMoBZWDO8wN3I4yA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"Use {=<fbt:param>} to insert variables and React components:\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "<fbt:param>"
+        }
+      ]
+    },
+    "4r+UzWLdG09uofFvGnED6Q==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Tab label",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Parameter"
+        }
+      ]
+    },
+    "7M4hsn9/uv67UiYw9F5z7w==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Tab label",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Komponenten"
+        }
+      ]
+    },
+    "XDevh+92VUnyXJEVQ9dJtg==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Components explanation",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "React-Komponenten werden automatisch in {=<fbt:param>} umgewandelt:"
+        }
+      ]
+    },
+    "52s1Ppy4jJL+I3dDXWytgA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"React components are automatically converted to {=<fbt:param>}:\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "<fbt:param>"
+        }
+      ]
+    },
+    "JeqqcSUwdTueCm92kJgw9Q==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Headline",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "Listen & Konjunktionen"
+        }
+      ]
+    },
+    "CovVNe0jaw6i3lRS+kOW1A==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "Lists description",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "{=<fbt:list>} behandelt grammatikalische Listen mit passenden Konjunktionen:"
+        }
+      ]
+    },
+    "/HLRFgU8HIN5JxSyOta0uA==": {
+      "types": [],
+      "status": "translated",
+      "tokens": [],
+      "description": "In the phrase: \"{=<fbt:list>} handles grammatical lists with proper conjunctions:\"",
+      "translations": [
+        {
+          "variations": {},
+          "translation": "<fbt:list>"
+        }
+      ]
     }
   }
 }
