@@ -957,6 +957,501 @@
         }
       ],
       "types": []
+    },
+    "AKX9Jat0dpSM8EKeKmWeLg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "src/translations/",
+          "variations": {}
+        }
+      ]
+    },
+    "A8CQ6/neJ7fj5yPKO4iN0w==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "4. Add to .gitignore",
+          "variations": {}
+        }
+      ]
+    },
+    "IqkziQ3d6Q1/kmnNpSdNcQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "5. Custom Scripts (Optional)",
+          "variations": {}
+        }
+      ]
+    },
+    "CqsG1fFHuvzzEmZ/QuQPXQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "package.jsonにカスタムコマンドを追加:",
+          "variations": {}
+        }
+      ]
+    },
+    "u1l+padxcuOpYCLADHjUdQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "ロケール管理",
+          "variations": {}
+        }
+      ]
+    },
+    "thOW5VrWzZ+FmCuMPwRckw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "コンポーネント内でロケールを管理・変更:",
+          "variations": {}
+        }
+      ]
+    },
+    "1ELjVsSsR+y3iUna1gK4sw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "ESLintプラグイン",
+          "variations": {}
+        }
+      ]
+    },
+    "/1k7Maf2J9SWX2C2l4NCJQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "一般的なミスを検出するためにESLintプラグインをインストール:",
+          "variations": {}
+        }
+      ]
+    },
+    "QIKC0NXBZPcVoWeqCnAxqA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "推奨",
+          "variations": {}
+        }
+      ]
+    },
+    "xigUMASeemQ0bZMJ1MkTGw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "厳格",
+          "variations": {}
+        }
+      ]
+    },
+    "UGcRnemPDzaw+kkUwOfJUA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "カスタム",
+          "variations": {}
+        }
+      ]
+    },
+    "KaK2lUyhF1plm8QbaklvFw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "この設定は未翻訳の文字列すべてにエラーを出します。",
+          "variations": {}
+        }
+      ]
+    },
+    "9gmOpqn2VjoCiKv69PoViw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "fbteeについての良い点",
+          "variations": {}
+        }
+      ]
+    },
+    "mljjlBaFU7/a0alt8QYBTw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "もともとFacebookによって作成され、ゼロから書き直されました。",
+          "variations": {}
+        }
+      ]
+    },
+    "O4dWPo3ZP2Le5kFxOBp5fg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "より簡単な設定",
+          "variations": {}
+        }
+      ]
+    },
+    "2T8pLseRrxvsEYAQZWnKQQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "ViteやNext.js、Expoなどの最新ツールとシームレスに連携します。",
+          "variations": {}
+        }
+      ]
+    },
+    "ZU4cF/6HC+9uU8j2zPMYJw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "静的型付け",
+          "variations": {}
+        }
+      ]
+    },
+    "3Lme3LwrPYIJ13kApHX5zw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "コンパイラ検証とESLintプラグインによる完全なTypeScriptサポート。",
+          "variations": {}
+        }
+      ]
+    },
+    "z64a79xidr/j2RPVZXNgxQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Reactとの互換性向上",
+          "variations": {}
+        }
+      ]
+    },
+    "tQGcI/JqTXLW7BmX0vV90A==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "ReactのフラグメントやServer Components、最新のパターンに対応。",
+          "variations": {}
+        }
+      ]
+    },
+    "bclZ6HQ/qt7YnodyNeQEhA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "拡張機能の改善",
+          "variations": {}
+        }
+      ]
+    },
+    "1+qnimygwe1q6HM2Eij1Zg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "修正済みおよびエクスポートされたintlListは、関数型の&lt;fbt:list&gt;コンポーネントです。",
+          "variations": {}
+        }
+      ]
+    },
+    "T9g23EMIfyPFcMkYXYWh3A==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "コードベースの近代化",
+          "variations": {}
+        }
+      ]
+    },
+    "92Ftcxxod+ZPVI7Zx/7Acg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "TypeScriptとESM、最新のJavaScript標準で書き直しました。",
+          "variations": {}
+        }
+      ]
+    },
+    "IA4h9W2Xt60cOsujxn9Cgg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "ツールの更新",
+          "variations": {}
+        }
+      ]
+    },
+    "hcCHpPR8LpIq4Fn6EQu/VA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "pnpm、Vite、esbuildを使用して、より高速で効率的な開発を実現。",
+          "variations": {}
+        }
+      ]
+    },
+    "pBJxNIfBaxv6/UMhf+aJEA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "より良い翻訳を実現するfbtee",
+          "variations": {}
+        }
+      ]
+    },
+    "nfAmxL08ysZoiBF4jhamSQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "リソース",
+          "variations": {}
+        }
+      ]
+    },
+    "vR9BuJzB+B7s3dCVypDlww==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Next.jsの例",
+          "variations": {}
+        }
+      ]
+    },
+    "QYKnZ4YgDLWkUdq7cpQkhQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "テンプレート",
+          "variations": {}
+        }
+      ]
+    },
+    "TIuY8tk+15dcL3ZAAQP2wg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Webアプリテンプレート",
+          "variations": {}
+        }
+      ]
+    },
+    "2xjuG69JR0hAj0T9tzkDFA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Expoアプリテンプレート",
+          "variations": {}
+        }
+      ]
+    },
+    "bu70QyRYJVrMa600vgiEuw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "もともとFacebookによって作成され、Nakazawa Techがメンテナンスしています。",
+          "variations": {}
+        }
+      ]
+    },
+    "VNNXf1SGDLLfoxNjWNMqrg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Nakazawa Tech",
+          "variations": {}
+        }
+      ]
+    },
+    "3p2EdDkpFI0G0wt2Q/55Aw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "GitHubでスター",
+          "variations": {}
+        }
+      ]
+    },
+    "IYUmtYxQtGdt1MucjXrsVA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{number}+",
+          "variations": {}
+        }
+      ]
+    },
+    "ZIF1WhVQwt7WZJvFTEbMWw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "<{number}",
+          "variations": {}
+        }
+      ]
+    },
+    "Oc/9PrbjfyLHS60BXceD1A==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{previous items}; {following items}",
+          "variations": {}
+        }
+      ]
+    },
+    "AXXbKEUZuc0ji1IClRrOOw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{previous items} • {following items}",
+          "variations": {}
+        }
+      ]
+    },
+    "89ACgPMtnwlLDSeqhLBx2Q==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{previous items}, {following items}",
+          "variations": {}
+        }
+      ]
+    },
+    "icNetEL/crQv/PS6yhySVQ==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{list of items}と{last item}",
+          "variations": {}
+        }
+      ]
+    },
+    "8eSaAzrWtAqn9ktNKfkaEg==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{list of items}または{last item}",
+          "variations": {}
+        }
+      ]
+    },
+    "+IBI7kr/mMKdzp+3stDvkw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{previous items} • {last item}",
+          "variations": {}
+        }
+      ]
+    },
+    "55IeE8c0qqtjTU0lo7q9AA==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{list of items} • {last item}",
+          "variations": {}
+        }
+      ]
+    },
+    "6PRJS0QalZfvaN8CkKCUCw==": {
+      "tokens": [],
+      "types": [],
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{list of items}, {last item}",
+          "variations": {}
+        }
+      ]
     }
   }
 }
