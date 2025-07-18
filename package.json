@@ -7,6 +7,7 @@
   "scripts": {
     "build:website": "vite build",
     "dev": "vite dev",
+    "fbtee:collect": "fbtee collect --src src",
     "format": "prettier --experimental-cli --write .",
     "preinstall": "command -v git >/dev/null 2>&1 && git config core.hooksPath git-hooks || exit 0",
     "lint": "eslint --cache .",
