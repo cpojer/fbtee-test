@@ -957,6 +957,543 @@
         }
       ],
       "types": []
+    },
+    "AKX9Jat0dpSM8EKeKmWeLg==": {
+      "description": "In the phrase: \"Generates optimized translation files in {=src/translations/}\"",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "src/translations/",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "A8CQ6/neJ7fj5yPKO4iN0w==": {
+      "description": "Step number and description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "4. .gitignoreに追加",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "IqkziQ3d6Q1/kmnNpSdNcQ==": {
+      "description": "Step number and description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "5. カスタムスクリプト（任意）",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "CqsG1fFHuvzzEmZ/QuQPXQ==": {
+      "description": "Custom scripts instructions",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "package.jsonにカスタムコマンドを追加：",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "u1l+padxcuOpYCLADHjUdQ==": {
+      "description": "Headline",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "ロケール管理",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "thOW5VrWzZ+FmCuMPwRckw==": {
+      "description": "Locale management description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "コンポーネント内でロケールにアクセスし、変更します：",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "1ELjVsSsR+y3iUna1gK4sw==": {
+      "description": "Headline",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "ESLintプラグイン",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "/1k7Maf2J9SWX2C2l4NCJQ==": {
+      "description": "ESLint plugin description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "よくある間違いを検出するためにESLintプラグインをインストール：",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "QIKC0NXBZPcVoWeqCnAxqA==": {
+      "description": "Tab label",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "推奨",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "xigUMASeemQ0bZMJ1MkTGw==": {
+      "description": "Tab label",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "厳格",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "UGcRnemPDzaw+kkUwOfJUA==": {
+      "description": "Tab label",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "カスタム",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "KaK2lUyhF1plm8QbaklvFw==": {
+      "description": "Strict configuration description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "翻訳されていない文字列すべてでエラーとします。",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "9gmOpqn2VjoCiKv69PoViw==": {
+      "description": "Headline",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "fbteeのどこが優れているの？",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "mljjlBaFU7/a0alt8QYBTw==": {
+      "description": "Better about fbtee description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "元はFacebookが作成し、完全に書き直されました。",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "O4dWPo3ZP2Le5kFxOBp5fg==": {
+      "description": "Feature title",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "より簡単なSetup",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "2T8pLseRrxvsEYAQZWnKQQ==": {
+      "description": "Easier setup description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Vite、Next.js、Expoなどの最新ツールとシームレスに動作します。",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "ZU4cF/6HC+9uU8j2zPMYJw==": {
+      "description": "Feature title",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "静的型付け",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "3Lme3LwrPYIJ13kApHX5zw==": {
+      "description": "Statically typed description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "コンパイラ検証とESLintプラグイン付きの完全なTypeScriptサポート。",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "z64a79xidr/j2RPVZXNgxQ==": {
+      "description": "Feature title",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "React互換性の向上",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "tQGcI/JqTXLW7BmX0vV90A==": {
+      "description": "React compatibility description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Reactフラグメント、サーバーコンポーネント、最新パターンをサポート。",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "bclZ6HQ/qt7YnodyNeQEhA==": {
+      "description": "Feature title",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "機能強化",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "1+qnimygwe1q6HM2Eij1Zg==": {
+      "description": "Enhanced features description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "intlListを修正し、機能的な<fbt:list>コンポーネントとしてエクスポート。",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "T9g23EMIfyPFcMkYXYWh3A==": {
+      "description": "Feature title",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "モダン化されたコードベース",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "92Ftcxxod+ZPVI7Zx/7Acg==": {
+      "description": "Modernized codebase description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "TypeScriptで書き直し、ESMと最新のJavaScript標準に準拠。",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "IA4h9W2Xt60cOsujxn9Cgg==": {
+      "description": "Feature title",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "ツールチェインの更新",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "hcCHpPR8LpIq4Fn6EQu/VA==": {
+      "description": "Updated tooling description",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "pnpm、Vite、esbuildを使い、より高速で効率的な開発を実現。",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "pBJxNIfBaxv6/UMhf+aJEA==": {
+      "description": "Tagline",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "遥かに優れたトランスレーション拡張版",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "nfAmxL08ysZoiBF4jhamSQ==": {
+      "description": "Footer section title",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "リソース",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "vR9BuJzB+B7s3dCVypDlww==": {
+      "description": "Link text",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Next.js例",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "QYKnZ4YgDLWkUdq7cpQkhQ==": {
+      "description": "Footer section title",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "テンプレート",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "TIuY8tk+15dcL3ZAAQP2wg==": {
+      "description": "Link text",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Webアプリテンプレート",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "2xjuG69JR0hAj0T9tzkDFA==": {
+      "description": "Link text",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Expoアプリテンプレート",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "bu70QyRYJVrMa600vgiEuw==": {
+      "description": "Footer credit",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "元はFacebook作成 • {=Nakazawa Tech}によるメンテナンス",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "VNNXf1SGDLLfoxNjWNMqrg==": {
+      "description": "In the phrase: \"Originally created by Facebook • Maintained by {=Nakazawa Tech}\"",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "Nakazawa Tech",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "3p2EdDkpFI0G0wt2Q/55Aw==": {
+      "description": "Button label",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "GitHubでスター",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "IYUmtYxQtGdt1MucjXrsVA==": {
+      "description": "Label with meaning 'at least number'",
+      "status": "translated",
+      "translations": [
+        {
+          "translation": "{number}+",
+          "variations": {}
+        }
+      ],
+      "tokens": [],
+      "types": []
+    },
+    "ZIF1WhVQwt7WZJvFTEbMWw==": {
+      "description": "Label with meaning 'less than number'",
+      "status": "translated",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "<{number}",
+          "variations": {}
+        }
+      ],
+      "types": []
+    },
+    "Oc/9PrbjfyLHS60BXceD1A==": {
+      "description": "A list of items of various types, for example: \"San Francisco; London; Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+      "status": "translated",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "{previous items}; {following items}",
+          "variations": {}
+        }
+      ],
+      "types": []
+    },
+    "AXXbKEUZuc0ji1IClRrOOw==": {
+      "description": "A list of items of various types separated by bullets, for example: \"San Francisco \\u2022 London \\u2022 Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+      "status": "translated",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "{previous items} • {following items}",
+          "variations": {}
+        }
+      ],
+      "types": []
+    },
+    "89ACgPMtnwlLDSeqhLBx2Q==": {
+      "description": "A list of items of various types separated by commas, for example: \"San Francisco, London, Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+      "status": "translated",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "{previous items}, {following items}",
+          "variations": {}
+        }
+      ],
+      "types": []
+    },
+    "icNetEL/crQv/PS6yhySVQ==": {
+      "description": "A list of items of various types, for example: \"item1, item2, item3 and item4\"",
+      "types": [],
+      "tokens": [],
+      "translations": [
+        {
+          "variations": [],
+          "translation": "{list of items}と{last item}"
+        }
+      ]
+    },
+    "8eSaAzrWtAqn9ktNKfkaEg==": {
+      "description": "A list of items of various types, for example: \"item1, item2, item3 or item4\"",
+      "types": [],
+      "tokens": [],
+      "translations": [
+        {
+          "variations": [],
+          "translation": "{list of items}または{last item}"
+        }
+      ]
+    },
+    "+IBI7kr/mMKdzp+3stDvkw==": {
+      "description": "A list of items of various types, for example: \"San Francisco; London; Tokyo\". {previous items} itself contains one or more items.",
+      "status": "translated",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "{previous items}; {last item}",
+          "variations": {}
+        }
+      ],
+      "types": []
+    },
+    "55IeE8c0qqtjTU0lo7q9AA==": {
+      "description": "A list of items of various types separated by bullets, for example: \"San Francisco \\u2022 London \\u2022 Tokyo\". {previous items} contains one or more items.",
+      "status": "translated",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "{list of items} • {last item}",
+          "variations": {}
+        }
+      ],
+      "types": []
+    },
+    "6PRJS0QalZfvaN8CkKCUCw==": {
+      "description": "A list of items of various types, for example: \"item1, item2, item3, item4\"",
+      "types": [],
+      "tokens": [],
+      "translations": [
+        {
+          "variations": [],
+          "translation": "{list of items}、{last item}"
+        }
+      ]
     }
   }
 }
