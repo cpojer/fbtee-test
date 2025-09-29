@@ -695,6 +695,9 @@ const App = () => (
                 <h3 className="text-2xl font-semibold">
                   <fbt desc="Headline">Dynamic Content</fbt>
                 </h3>
+                <fbt desc="Subtitle">
+                  Totally new string that you haven&apos;t seen before.
+                </fbt>
               </div>
 
               <p className="text-muted-foreground mb-4">
