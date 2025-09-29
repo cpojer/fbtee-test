@@ -1520,6 +1520,18 @@
         }
       ],
       "types": []
+    },
+    "B1PIvfmsBuMqaLxuYOODKw==": {
+      "description": "Subtitle",
+      "status": "translated",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "VÖLLIG NEUER STRING, DEN DU NOCH NIE GESEHEN HAST.",
+          "variations": {}
+        }
+      ],
+      "types": []
     }
   }
 }

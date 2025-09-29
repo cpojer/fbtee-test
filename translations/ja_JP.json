@@ -1521,6 +1521,18 @@
         }
       ],
       "types": []
+    },
+    "B1PIvfmsBuMqaLxuYOODKw==": {
+      "description": "Subtitle",
+      "status": "translated",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "Mada mita koto no nai zenzen atarashii strings desu.",
+          "variations": {}
+        }
+      ],
+      "types": []
     }
   }
 }
