@@ -1520,6 +1520,18 @@
         }
       ],
       "types": []
+    },
+    "B1PIvfmsBuMqaLxuYOODKw==": {
+      "description": "Subtitle",
+      "status": "translated",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "Eine komplett neue Zeichenkette, die du noch nie gesehen hast.",
+          "variations": {}
+        }
+      ],
+      "types": []
     }
   }
 }
