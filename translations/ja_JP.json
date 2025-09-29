@@ -1521,6 +1521,18 @@
         }
       ],
       "types": []
+    },
+    "B1PIvfmsBuMqaLxuYOODKw==": {
+      "description": "Subtitle",
+      "status": "translated",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "TOTALLY NEW STRING THAT YOU HAVEN'T SEEN BEFORE.",
+          "variations": {}
+        }
+      ],
+      "types": []
     }
   }
 }
