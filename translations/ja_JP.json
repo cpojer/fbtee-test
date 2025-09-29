@@ -1521,6 +1521,18 @@
         }
       ],
       "types": []
+    },
+    "B1PIvfmsBuMqaLxuYOODKw==": {
+      "description": "Subtitle",
+      "status": "translated",
+      "tokens": [],
+      "translations": [
+        {
+          "translation": "まったく新しい、これまでに見たことのない文字列です。",
+          "variations": {}
+        }
+      ],
+      "types": []
     }
   }
 }
