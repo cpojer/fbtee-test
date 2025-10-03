@@ -72,7 +72,7 @@ const LocaleSwitcher = () => {
           popoverTargetAction="show"
         >
           <Languages className="h-4 w-4" />
-          <fbt desc="Locale switcher button">Change Language</fbt>
+          <fbt desc="Locale switcher button">Change Language Test</fbt>
         </button>
       </Button>
       <Card
@@ -157,8 +157,7 @@ export default function App() {
           </h1>
           <p className="text-muted-foreground mx-auto mb-8 max-w-2xl text-xl">
             <fbt desc="fbtee tagline">
-              An internationalization framework for JavaScript & React designed
-              to be{' '}
+              An internationalization for JavaScript & React designed to be{' '}
               <span className="font-semibold text-purple-600">powerful</span>,{' '}
               <span className="font-semibold text-indigo-600">flexible</span>,
               and{' '}
@@ -177,7 +176,7 @@ export default function App() {
               >
                 <Rocket className="h-4 w-4" />
                 <span>
-                  <fbt desc="Get started button label">Get Started</fbt>
+                  <fbt desc="Get started button label">Get</fbt>
                 </span>
                 <ArrowRight className="h-4 w-4" />
               </Link>
@@ -207,7 +206,7 @@ export default function App() {
         <div className="container mx-auto max-w-6xl">
           <div className="mb-8 text-center">
             <h2 className="mb-4 text-3xl">
-              <fbt desc="Headline">
+              <fbt desc="Headline 7">
                 Why choose <span className="font-bold">fbtee</span>?
               </fbt>
             </h2>
@@ -224,7 +223,7 @@ export default function App() {
                   <CodeIcon className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle className="text-lg">
-                  <fbt desc="Headline">Inline Translations</fbt>
+                  <fbt desc="Headline 7">Inline Translations</fbt>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -243,7 +242,7 @@ export default function App() {
                   <Shield className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle className="text-lg">
-                  <fbt desc="Headline">Proven in Production</fbt>
+                  <fbt desc="Headline 7">Proven in Production</fbt>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -261,7 +260,7 @@ export default function App() {
                   <Zap className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle className="text-lg">
-                  <fbt desc="Headline">Optimized Performance</fbt>
+                  <fbt desc="Headline 7">Optimized Performance</fbt>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -279,7 +278,7 @@ export default function App() {
                   <Rocket className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle className="text-lg">
-                  <fbt desc="Headline">Easy Setup</fbt>
+                  <fbt desc="Headline 7">Easy Setup</fbt>
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -298,7 +297,7 @@ export default function App() {
         <div className="container mx-auto max-w-2xl">
           <div className="text-center">
             <h2 className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text pb-4 text-3xl font-bold text-transparent">
-              <fbt desc="Headline">
+              <fbt desc="Headline 7">
                 <span className="font-bold">fbtee</span> in Action
               </fbt>
             </h2>
@@ -330,7 +329,7 @@ export default function App() {
         <div className="container mx-auto max-w-4xl">
           <div className="mb-8 text-center">
             <h2 className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text pb-4 text-3xl font-bold text-transparent">
-              <fbt desc="Headline">Getting Started</fbt>
+              <fbt desc="Headline 7">Getting Started</fbt>
             </h2>
             <p className="text-muted-foreground">
               <fbt desc="Getting started description">
@@ -347,7 +346,7 @@ export default function App() {
                   <Sparkles className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold">
-                  <fbt desc="Headline">Quick Start Templates</fbt>
+                  <fbt desc="Headline 7">Quick Start Templates</fbt>
                 </h3>
               </div>
               <p className="text-muted-foreground mb-6">
@@ -363,7 +362,7 @@ export default function App() {
                     <div className="flex items-center space-x-2">
                       <Globe className="h-5 w-5 text-purple-600" />
                       <CardTitle className="text-lg">
-                        <fbt desc="Headline">Web App Template</fbt>
+                        <fbt desc="Headline 7">Web App Template</fbt>
                       </CardTitle>
                     </div>
                     <CardDescription>
@@ -397,7 +396,7 @@ export default function App() {
                     <div className="flex items-center space-x-2">
                       <Users className="h-5 w-5 text-pink-600" />
                       <CardTitle className="text-lg">
-                        <fbt desc="Headline">Expo App Template</fbt>
+                        <fbt desc="Headline 7">Expo App Template</fbt>
                       </CardTitle>
                     </div>
                     <CardDescription>
@@ -437,7 +436,7 @@ export default function App() {
                   <Terminal className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold">
-                  <fbt desc="Headline">Manual Installation</fbt>
+                  <fbt desc="Headline 7">Manual Installation</fbt>
                 </h3>
               </div>
               <div className="mb-4 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-500 p-6 text-white">
@@ -466,7 +465,7 @@ export default function App() {
                   <Settings className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold">
-                  <fbt desc="Headline">Framework Setup</fbt>
+                  <fbt desc="Headline 7">Framework Setup</fbt>
                 </h3>
               </div>
 
@@ -548,12 +547,12 @@ export default {
         <div className="container mx-auto max-w-4xl">
           <div className="mb-8 text-center">
             <h2 className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text pb-4 text-3xl font-bold text-transparent">
-              <fbt desc="Headline">Usage Guide</fbt>
+              <fbt desc="Headline 7">Usage Guide</fbt>
             </h2>
             <p className="text-muted-foreground">
               <fbt desc="Usage guide description">
                 Everything you need to know to use{' '}
-                <span className="font-bold">fbtee</span> effectively.
+                <span className="font-bold">fbtee</span>.
               </fbt>
             </p>
           </div>
@@ -565,14 +564,14 @@ export default {
                   <Globe className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold">
-                  <fbt desc="Headline">App Setup</fbt>
+                  <fbt desc="Headline 7">App Setup</fbt>
                 </h3>
               </div>
 
               <p className="text-muted-foreground mb-6">
                 <fbt desc="App setup description">
                   Set up <span className="font-bold">fbtee</span>&apos;s runtime
-                  to manage locales in your app. First, add TypeScript support:
+                  to manage locales. First, add TypeScript support:
                 </fbt>
               </p>
 
@@ -634,13 +633,13 @@ const App = () => (
                   <CodeIcon className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold">
-                  <fbt desc="Headline">Usage</fbt>
+                  <fbt desc="Headline 7">Usage</fbt>
                 </h3>
               </div>
 
               <p className="text-muted-foreground mb-4">
                 <fbt desc="Usage description">
-                  All translatable strings must be wrapped with{' '}
+                  All strings must be wrapped with{' '}
                   <code className="bg-muted rounded px-1">&lt;fbt&gt;</code> or{' '}
                   <code className="bg-muted rounded px-1">fbt()</code>:
                 </fbt>
@@ -675,11 +674,10 @@ const App = () => (
 
               <div className="mt-4 rounded-lg border border-purple-200 bg-purple-50 p-4 dark:bg-purple-900">
                 <p className="text-sm text-purple-800 dark:text-purple-50">
-                  <fbt desc="Usage note">
-                    <strong>Note:</strong> The <code>desc</code> attribute is
-                    required and provides context for translators.{' '}
-                    <code>&lt;fbt&gt;</code> is auto-imported by the Babel
-                    preset.
+                  <fbt desc="Usage note 5">
+                    <strong>Note:</strong> The <code>desc</code> attribute
+                    provides context for translators. <code>&lt;fbt&gt;</code>{' '}
+                    is auto-imported by the Babel preset.
                   </fbt>
                 </p>
               </div>
@@ -693,7 +691,7 @@ const App = () => (
                   <Zap className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold">
-                  <fbt desc="Headline">Dynamic Content</fbt>
+                  <fbt desc="Headline 7">Content</fbt>
                 </h3>
               </div>
 
@@ -757,7 +755,7 @@ const App = () => (
                   <Users className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold">
-                  <fbt desc="Headline">Lists & Conjunctions</fbt>
+                  <fbt desc="Headline 7">Lists & Conjunctions</fbt>
                 </h3>
               </div>
 
@@ -809,7 +807,7 @@ const userList = list(['Alice', 'Bob', 'Charlie'], 'or', 'comma');
                   <Languages className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold">
-                  <fbt desc="Headline">Pluralization</fbt>
+                  <fbt desc="Headline 7">Pluralization</fbt>
                 </h3>
               </div>
 
@@ -872,7 +870,7 @@ const userList = list(['Alice', 'Bob', 'Charlie'], 'or', 'comma');
                   <Users className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold">
-                  <fbt desc="Headline">Pronouns</fbt>
+                  <fbt desc="Headline 7">Pronouns</fbt>
                 </h3>
               </div>
 
@@ -911,7 +909,7 @@ const userList = list(['Alice', 'Bob', 'Charlie'], 'or', 'comma');
                   <FileText className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold">
-                  <fbt desc="Headline">Plain Text Usage</fbt>
+                  <fbt desc="Headline 7">Plain Text Usage</fbt>
                 </h3>
               </div>
 
@@ -947,7 +945,7 @@ const userList = list(['Alice', 'Bob', 'Charlie'], 'or', 'comma');
                   <Terminal className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold">
-                  <fbt desc="Headline">Translation Workflow</fbt>
+                  <fbt desc="Headline 7">Translation Workflow</fbt>
                 </h3>
               </div>
 
@@ -1054,7 +1052,7 @@ src/translations/`}
                   <Globe className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold">
-                  <fbt desc="Headline">Locale Management</fbt>
+                  <fbt desc="Headline 7">Locale Management</fbt>
                 </h3>
               </div>
 
@@ -1097,7 +1095,7 @@ const LocaleSwitcher = () => {
                   <Shield className="h-4 w-4 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold">
-                  <fbt desc="Headline">ESLint Plugin</fbt>
+                  <fbt desc="Headline 7">ESLint Plugin</fbt>
                 </h3>
               </div>
 
@@ -1169,7 +1167,7 @@ const LocaleSwitcher = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="mb-8 text-center">
             <h2 className="mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-3xl font-bold text-transparent">
-              <fbt desc="Headline">What&apos;s Better About fbtee?</fbt>
+              <fbt desc="Headline 7">What&apos;s Better About fbtee?</fbt>
             </h2>
             <p className="text-muted-foreground">
               <fbt desc="Better about fbtee description">
