@@ -194,7 +194,7 @@ export default function App() {
               >
                 <Github className="h-4 w-4" />
                 <span>
-                  <fbt desc="Button label">View on GitHub</fbt>
+                  <fbt desc="Button label">View on</fbt>
                 </span>
               </Link>
             </Button>
