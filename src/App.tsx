@@ -207,7 +207,7 @@ export default function App() {
           <div className="mb-8 text-center">
             <h2 className="mb-4 text-3xl">
               <fbt desc="Headline 7">
-                Why choose <span className="font-bold">fbtee</span>?
+                Why not choose <span className="font-bold">fbtee</span>?
               </fbt>
             </h2>
             <p className="text-muted-foreground mx-auto max-w-2xl">
