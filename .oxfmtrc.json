@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "experimentalTailwindcss": {},
+  "singleQuote": true,
+  "printWidth": 80,
+  "experimentalSortPackageJson": {},
+  "ignorePatterns": [
+    "example/.enum_manifest.json",
+    "example/source_strings.json",
+    "example/src/translatedFbts",
+    "example/src/translatedFbts.json",
+    "packages/*/lib/",
+    "packages/fbtee/lib-tmp/",
+    "pnpm-lock.yaml",
+    "website/.enum_manifest.json",
+    "website/dist/",
+    "website/source_strings.json"
+  ]
+}
