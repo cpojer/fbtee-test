@@ -1,23 +1,12 @@
-import { useLocaleContext } from 'fbtee';
-import { AnchorHTMLAttributes, useTransition } from 'react';
-import AvailableLanguages from './AvailableLanguages.tsx';
+import { useLocaleContext } from "fbtee";
+import { AnchorHTMLAttributes, useTransition } from "react";
+import AvailableLanguages from "./AvailableLanguages.tsx";
 
-import { Badge } from './components/Badge.tsx';
-import { Button } from './components/Button.tsx';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from './components/Card.tsx';
-import { Separator } from './components/Separator.tsx';
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from './components/Tabs.tsx';
+import { Badge } from "./components/Badge.tsx";
+import { Button } from "./components/Button.tsx";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./components/Card.tsx";
+import { Separator } from "./components/Separator.tsx";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/Tabs.tsx";
 import {
   Code as CodeIcon,
   Globe,
@@ -34,25 +23,23 @@ import {
   Settings,
   Languages,
   createLucideIcon,
-} from 'lucide-react';
-import Code from './components/Code.tsx';
-import cx from './lib/cx.tsx';
-import { VStack } from '@nkzw/stack';
+} from "lucide-react";
+import Code from "./components/Code.tsx";
+import cx from "./lib/cx.tsx";
+import { VStack } from "@nkzw/stack";
 
-const Github = createLucideIcon('github', [
+const Github = createLucideIcon("github", [
   [
-    'path',
+    "path",
     {
-      d: 'M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4',
-      key: 'tonef',
+      d: "M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4",
+      key: "tonef",
     },
   ],
-  ['path', { d: 'M9 18c-4.51 2-5-2-7-2', key: '9comsn' }],
+  ["path", { d: "M9 18c-4.51 2-5-2-7-2", key: "9comsn" }],
 ]);
 
-const Link = ({ ...props }: AnchorHTMLAttributes<HTMLAnchorElement>) => (
-  <a {...props} />
-);
+const Link = ({ ...props }: AnchorHTMLAttributes<HTMLAnchorElement>) => <a {...props} />;
 
 const LocaleSwitcher = () => {
   const [, startTransition] = useTransition();
@@ -85,9 +72,9 @@ const LocaleSwitcher = () => {
             <Button
               asChild
               className={cx(
-                'transition-background border-purple-200 bg-transparent duration-200 hover:border-purple-300 hover:bg-purple-200 dark:hover:bg-purple-900',
+                "transition-background border-purple-200 bg-transparent duration-200 hover:border-purple-300 hover:bg-purple-200 dark:hover:bg-purple-900",
                 {
-                  'bg-purple-100 dark:bg-purple-900': currentLocale === locale,
+                  "bg-purple-100 dark:bg-purple-900": currentLocale === locale,
                 },
               )}
               key={locale}
@@ -99,7 +86,7 @@ const LocaleSwitcher = () => {
                 onClick={() =>
                   startTransition(() => {
                     setLocale(locale);
-                    localStorage.setItem('fbtee:locale', locale);
+                    localStorage.setItem("fbtee:locale", locale);
                   })
                 }
               >
@@ -157,10 +144,9 @@ export default function App() {
           </h1>
           <p className="text-muted-foreground mx-auto mb-8 max-w-2xl text-xl">
             <fbt desc="fbtee tagline">
-              An internationalization for JavaScript & React designed to be{' '}
-              <span className="font-semibold text-purple-600">powerful</span>,{' '}
-              <span className="font-semibold text-indigo-600">flexible</span>,
-              and{' '}
+              An internationalization for JavaScript & React designed to be{" "}
+              <span className="font-semibold text-purple-600">powerful</span>,{" "}
+              <span className="font-semibold text-indigo-600">flexible</span>, and{" "}
               <span className="font-semibold text-pink-600">intuitive</span>.
             </fbt>
           </p>
@@ -170,10 +156,7 @@ export default function App() {
               className="transition-background bg-gradient-to-r from-purple-600 to-pink-600 duration-200 hover:from-purple-700 hover:to-pink-700"
               size="lg"
             >
-              <Link
-                className="flex items-center space-x-1"
-                href="#getting-started"
-              >
+              <Link className="flex items-center space-x-1" href="#getting-started">
                 <Rocket className="h-4 w-4" />
                 <span>
                   <fbt desc="Get started button label">Get</fbt>
@@ -229,9 +212,8 @@ export default function App() {
               <CardContent>
                 <p className="text-muted-foreground text-sm">
                   <fbt desc="Inline translations description">
-                    Embed translations directly into your code. No need to
-                    manage translation keys or wrap your code with t()
-                    functions.
+                    Embed translations directly into your code. No need to manage translation keys
+                    or wrap your code with t() functions.
                   </fbt>
                 </p>
               </CardContent>
@@ -248,8 +230,8 @@ export default function App() {
               <CardContent>
                 <p className="text-muted-foreground text-sm">
                   <fbt desc="Proven in production description">
-                    Built on Facebook&apos;s fbt, with over a decade of
-                    production usage, serving billions of users.
+                    Built on Facebook&apos;s fbt, with over a decade of production usage, serving
+                    billions of users.
                   </fbt>
                 </p>
               </CardContent>
@@ -266,8 +248,8 @@ export default function App() {
               <CardContent>
                 <p className="text-muted-foreground text-sm">
                   <fbt desc="Optimized performance description">
-                    Compiles translations into an Intermediate Representation
-                    (IR) for extracting strings, then optimizes runtime output.
+                    Compiles translations into an Intermediate Representation (IR) for extracting
+                    strings, then optimizes runtime output.
                   </fbt>
                 </p>
               </CardContent>
@@ -284,8 +266,8 @@ export default function App() {
               <CardContent>
                 <p className="text-muted-foreground text-sm">
                   <fbt desc="Easy setup description">
-                    Quick integration with tools like Babel and Vite means you
-                    can get started instantly.
+                    Quick integration with tools like Babel and Vite means you can get started
+                    instantly.
                   </fbt>
                 </p>
               </CardContent>
@@ -333,8 +315,7 @@ export default function App() {
             </h2>
             <p className="text-muted-foreground">
               <fbt desc="Getting started description">
-                Choose your preferred way to start with{' '}
-                <span className="font-bold">fbtee</span>.
+                Choose your preferred way to start with <span className="font-bold">fbtee</span>.
               </fbt>
             </p>
           </div>
@@ -351,9 +332,8 @@ export default function App() {
               </div>
               <p className="text-muted-foreground mb-6">
                 <fbt desc="Quick start templates description">
-                  Skip the setup hassle! These templates come with{' '}
-                  <span className="font-bold">fbtee</span> pre-configured and
-                  ready to go:
+                  Skip the setup hassle! These templates come with{" "}
+                  <span className="font-bold">fbtee</span> pre-configured and ready to go:
                 </fbt>
               </p>
               <div className="grid gap-6 md:grid-cols-2">
@@ -442,8 +422,7 @@ export default function App() {
               <div className="mb-4 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-500 p-6 text-white">
                 <p className="mb-4 text-purple-100">
                   <fbt desc="Manual installation description">
-                    <strong>Requirements:</strong> Node 22+, React 19+ (if using
-                    React)
+                    <strong>Requirements:</strong> Node 22+, React 19+ (if using React)
                   </fbt>
                 </p>
                 <div className="space-y-2 font-mono text-sm">
@@ -478,8 +457,7 @@ export default function App() {
                 <TabsContent className="space-y-4" value="vite">
                   <p className="text-muted-foreground">
                     <fbt desc="Vite setup instructions">
-                      Install the Vite React plugin and configure your
-                      vite.config.ts:
+                      Install the Vite React plugin and configure your vite.config.ts:
                     </fbt>
                   </p>
                   <Code
@@ -511,16 +489,15 @@ export default {
                   <div className="rounded-lg border border-blue-200 bg-blue-50 p-4 dark:bg-blue-900">
                     <p className="text-sm text-blue-800 dark:text-blue-50">
                       <fbt desc="Next.js tip">
-                        <strong>Next.js Tip:</strong> Check out the{' '}
+                        <strong>Next.js Tip:</strong> Check out the{" "}
                         <Link
                           className="underline"
                           href="https://github.com/cpojer/nextjs-fbtee-example"
                           target="_blank"
                         >
                           Next.js App fbtee Example
-                        </Link>{' '}
-                        for a complete setup with App Router and Server
-                        Components.
+                        </Link>{" "}
+                        for a complete setup with App Router and Server Components.
                       </fbt>
                     </p>
                   </div>
@@ -528,8 +505,7 @@ export default {
                 <TabsContent className="space-y-4" value="babel">
                   <p className="text-muted-foreground">
                     <fbt desc="Babel setup instructions">
-                      For custom Babel setups, add the preset to your .babelrc
-                      or babel.config.js:
+                      For custom Babel setups, add the preset to your .babelrc or babel.config.js:
                     </fbt>
                   </p>
                   <Code
@@ -551,8 +527,7 @@ export default {
             </h2>
             <p className="text-muted-foreground">
               <fbt desc="Usage guide description">
-                Everything you need to know to use{' '}
-                <span className="font-bold">fbtee</span>.
+                Everything you need to know to use <span className="font-bold">fbtee</span>.
               </fbt>
             </p>
           </div>
@@ -570,8 +545,8 @@ export default {
 
               <p className="text-muted-foreground mb-6">
                 <fbt desc="App setup description">
-                  Set up <span className="font-bold">fbtee</span>&apos;s runtime
-                  to manage locales. First, add TypeScript support:
+                  Set up <span className="font-bold">fbtee</span>&apos;s runtime to manage locales.
+                  First, add TypeScript support:
                 </fbt>
               </p>
 
@@ -639,8 +614,8 @@ const App = () => (
 
               <p className="text-muted-foreground mb-4">
                 <fbt desc="Usage description">
-                  All strings must be wrapped with{' '}
-                  <code className="bg-muted rounded px-1">&lt;fbt&gt;</code> or{' '}
+                  All strings must be wrapped with{" "}
+                  <code className="bg-muted rounded px-1">&lt;fbt&gt;</code> or{" "}
                   <code className="bg-muted rounded px-1">fbt()</code>:
                 </fbt>
               </p>
@@ -675,9 +650,8 @@ const App = () => (
               <div className="mt-4 rounded-lg border border-purple-200 bg-purple-50 p-4 dark:bg-purple-900">
                 <p className="text-sm text-purple-800 dark:text-purple-50">
                   <fbt desc="Usage note 5">
-                    <strong>Note:</strong> The <code>desc</code> attribute
-                    provides context for translators. <code>&lt;fbt&gt;</code>{' '}
-                    is auto-imported by the Babel preset.
+                    <strong>Note:</strong> The <code>desc</code> attribute provides context for
+                    translators. <code>&lt;fbt&gt;</code> is auto-imported by the Babel preset.
                   </fbt>
                 </p>
               </div>
@@ -697,11 +671,8 @@ const App = () => (
 
               <p className="text-muted-foreground mb-4">
                 <fbt desc="Dynamic content description">
-                  Use{' '}
-                  <code className="bg-muted rounded px-1">
-                    &lt;fbt:param&gt;
-                  </code>{' '}
-                  to insert variables and React components:
+                  Use <code className="bg-muted rounded px-1">&lt;fbt:param&gt;</code> to insert
+                  variables and React components:
                 </fbt>
               </p>
 
@@ -729,8 +700,8 @@ const App = () => (
                 <TabsContent value="components">
                   <div className="mb-2">
                     <fbt desc="Components explanation">
-                      React components are automatically converted to{' '}
-                      <code>&lt;fbt:param&gt;</code>:
+                      React components are automatically converted to <code>&lt;fbt:param&gt;</code>
+                      :
                     </fbt>
                   </div>
                   <Code
@@ -761,10 +732,8 @@ const App = () => (
 
               <p className="text-muted-foreground mb-4">
                 <fbt desc="Lists description">
-                  <code className="bg-muted rounded px-1">
-                    &lt;fbt:list&gt;
-                  </code>{' '}
-                  handles grammatical lists with proper conjunctions:
+                  <code className="bg-muted rounded px-1">&lt;fbt:list&gt;</code> handles
+                  grammatical lists with proper conjunctions:
                 </fbt>
               </p>
 
@@ -813,11 +782,8 @@ const userList = list(['Alice', 'Bob', 'Charlie'], 'or', 'comma');
 
               <p className="text-muted-foreground mb-4">
                 <fbt desc="Pluralization description">
-                  Handle singular and plural forms with{' '}
-                  <code className="bg-muted rounded px-1">
-                    &lt;fbt:plural&gt;
-                  </code>
-                  :
+                  Handle singular and plural forms with{" "}
+                  <code className="bg-muted rounded px-1">&lt;fbt:plural&gt;</code>:
                 </fbt>
               </p>
 
@@ -876,11 +842,8 @@ const userList = list(['Alice', 'Bob', 'Charlie'], 'or', 'comma');
 
               <p className="text-muted-foreground mb-4">
                 <fbt desc="Pronouns description">
-                  Handle gendered pronouns with{' '}
-                  <code className="bg-muted rounded px-1">
-                    &lt;fbt:pronoun&gt;
-                  </code>
-                  :
+                  Handle gendered pronouns with{" "}
+                  <code className="bg-muted rounded px-1">&lt;fbt:pronoun&gt;</code>:
                 </fbt>
               </p>
 
@@ -915,7 +878,7 @@ const userList = list(['Alice', 'Bob', 'Charlie'], 'or', 'comma');
 
               <p className="text-muted-foreground mb-4">
                 <fbt desc="Plain text usage description">
-                  For non-JSX contexts like HTML attributes, use{' '}
+                  For non-JSX contexts like HTML attributes, use{" "}
                   <code className="bg-muted rounded px-1">fbs()</code>:
                 </fbt>
               </p>
@@ -952,35 +915,29 @@ const userList = list(['Alice', 'Bob', 'Charlie'], 'or', 'comma');
               <div className="space-y-6">
                 <div>
                   <h4 className="mb-2 font-semibold">
-                    <fbt desc="Step number and description">
-                      1. Extract Strings
-                    </fbt>
+                    <fbt desc="Step number and description">1. Extract Strings</fbt>
                   </h4>
                   <div className="mb-4 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-500 px-6 py-3 text-white">
                     <code>
-                      <span className="text-purple-300">$</span> pnpm fbtee
-                      collect
+                      <span className="text-purple-300">$</span> pnpm fbtee collect
                     </code>
                   </div>
                   <p className="text-muted-foreground mt-2">
                     <fbt desc="Extract strings explanation">
-                      Creates <code>source_strings.json</code> with all
-                      translatable strings
+                      Creates <code>source_strings.json</code> with all translatable strings
                     </fbt>
                   </p>
                 </div>
 
                 <div>
                   <h4 className="mb-2 font-semibold">
-                    <fbt desc="Step number and description">
-                      2. Create Translation Files
-                    </fbt>
+                    <fbt desc="Step number and description">2. Create Translation Files</fbt>
                   </h4>
                   <p className="text-muted-foreground mb-2">
                     <fbt desc="Translation files instructions">
                       Upload
-                      <code>source_strings.json</code> to your translation
-                      service, or create files manually:
+                      <code>source_strings.json</code> to your translation service, or create files
+                      manually:
                     </fbt>
                   </p>
                   <Code
@@ -990,29 +947,23 @@ const userList = list(['Alice', 'Bob', 'Charlie'], 'or', 'comma');
 
                 <div>
                   <h4 className="mb-2 font-semibold">
-                    <fbt desc="Step number and description">
-                      3. Compile Translations
-                    </fbt>
+                    <fbt desc="Step number and description">3. Compile Translations</fbt>
                   </h4>
                   <div className="mb-4 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-500 px-6 py-3 text-white">
                     <code>
-                      <span className="text-purple-300">$</span> pnpm fbtee
-                      translate
+                      <span className="text-purple-300">$</span> pnpm fbtee translate
                     </code>
                   </div>
                   <p className="text-muted-foreground mt-2">
                     <fbt desc="Compile translations explanation">
-                      Generates optimized translation files in{' '}
-                      <code>src/translations/</code>
+                      Generates optimized translation files in <code>src/translations/</code>
                     </fbt>
                   </p>
                 </div>
 
                 <div>
                   <h4 className="mb-2 font-semibold">
-                    <fbt desc="Step number and description">
-                      4. Add to .gitignore
-                    </fbt>
+                    <fbt desc="Step number and description">4. Add to .gitignore</fbt>
                   </h4>
                   <Code
                     code={`.enum_manifest.json
@@ -1023,9 +974,7 @@ src/translations/`}
 
                 <div>
                   <h4 className="mb-2 font-semibold">
-                    <fbt desc="Step number and description">
-                      5. Custom Scripts (Optional)
-                    </fbt>
+                    <fbt desc="Step number and description">5. Custom Scripts (Optional)</fbt>
                   </h4>
                   <p className="text-muted-foreground mb-2">
                     <fbt desc="Custom scripts instructions">
@@ -1188,8 +1137,7 @@ const LocaleSwitcher = () => {
                   </h4>
                   <p className="text-muted-foreground text-sm">
                     <fbt desc="Easier setup description">
-                      Works seamlessly with modern tools like Vite, Next.js, and
-                      Expo.
+                      Works seamlessly with modern tools like Vite, Next.js, and Expo.
                     </fbt>
                   </p>
                 </div>
@@ -1204,8 +1152,7 @@ const LocaleSwitcher = () => {
                   </h4>
                   <p className="text-muted-foreground text-sm">
                     <fbt desc="Statically typed description">
-                      Full TypeScript support with compiler validation and
-                      ESLint plugin.
+                      Full TypeScript support with compiler validation and ESLint plugin.
                     </fbt>
                   </p>
                 </div>
@@ -1220,8 +1167,7 @@ const LocaleSwitcher = () => {
                   </h4>
                   <p className="text-muted-foreground text-sm">
                     <fbt desc="React compatibility description">
-                      Support for React fragments, Server Components, and modern
-                      patterns.
+                      Support for React fragments, Server Components, and modern patterns.
                     </fbt>
                   </p>
                 </div>
@@ -1238,8 +1184,7 @@ const LocaleSwitcher = () => {
                   </h4>
                   <p className="text-muted-foreground text-sm">
                     <fbt desc="Enhanced features description">
-                      Fixed and exported intlList as functional &lt;fbt:list&gt;
-                      component.
+                      Fixed and exported intlList as functional &lt;fbt:list&gt; component.
                     </fbt>
                   </p>
                 </div>
@@ -1254,8 +1199,7 @@ const LocaleSwitcher = () => {
                   </h4>
                   <p className="text-muted-foreground text-sm">
                     <fbt desc="Modernized codebase description">
-                      Rewritten in TypeScript with ESM and modern JavaScript
-                      standards.
+                      Rewritten in TypeScript with ESM and modern JavaScript standards.
                     </fbt>
                   </p>
                 </div>
@@ -1270,8 +1214,7 @@ const LocaleSwitcher = () => {
                   </h4>
                   <p className="text-muted-foreground text-sm">
                     <fbt desc="Updated tooling description">
-                      Uses pnpm, Vite, and esbuild for faster, more efficient
-                      development.
+                      Uses pnpm, Vite, and esbuild for faster, more efficient development.
                     </fbt>
                   </p>
                 </div>
@@ -1292,9 +1235,7 @@ const LocaleSwitcher = () => {
                 </span>
               </div>
               <p className="text-muted-foreground text-sm italic">
-                <fbt desc="Tagline">
-                  Far Better Translations, Extended Edition
-                </fbt>
+                <fbt desc="Tagline">Far Better Translations, Extended Edition</fbt>
               </p>
             </div>
             <div>
@@ -1471,7 +1412,7 @@ const LocaleSwitcher = () => {
             <div className="text-muted-foreground mb-4 text-sm md:mb-0">
               <p>
                 <fbt desc="Footer credit">
-                  Originally created by Facebook • Maintained by{' '}
+                  Originally created by Facebook • Maintained by{" "}
                   <Link
                     className="text-purple-600 hover:text-purple-700"
                     href="https://nakazawa.tech"

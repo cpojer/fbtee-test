@@ -10,17 +10,12 @@
     "fbtee:collect": "fbtee collect --src src",
     "format": "prettier --experimental-cli --write .",
     "preinstall": "command -v git >/dev/null 2>&1 && git config core.hooksPath git-hooks || exit 0",
-    "lint": "eslint --cache .",
+    "lint": "oxlint .",
     "lint:format": "prettier --experimental-cli --cache --check .",
     "ship": "pnpm clean && pnpm build:all && pnpm test && pnpm publish -r --access public",
     "test": "npm-run-all --parallel lint tsc:check lint:format",
     "tsc:check": "tsc"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not op_mini all"
-  ],
   "dependencies": {
     "@nkzw/stack": "^2.2.0",
     "@radix-ui/react-separator": "^1.1.7",
@@ -39,7 +34,7 @@
     "@ianvs/prettier-plugin-sort-imports": "^4.4.2",
     "@jest/globals": "30.0.4",
     "@nkzw/babel-preset-fbtee": "^1.2.7",
-    "@nkzw/eslint-config": "^3.0.1",
+    "@nkzw/eslint-plugin": "^2.0.0",
     "@prettier/plugin-oxc": "^0.0.4",
     "@tailwindcss/postcss": "^4.1.11",
     "@types/node": "^24.0.12",
@@ -47,9 +42,12 @@
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
     "babel-plugin-react-compiler": "19.1.0-rc.2",
-    "eslint": "^9.30.1",
+    "eslint-plugin-no-only-tests": "^3.3.0",
+    "eslint-plugin-perfectionist": "^5.4.0",
+    "eslint-plugin-unused-imports": "^4.3.0",
     "npm-run-all2": "^8.0.4",
     "nullthrows": "^1.1.1",
+    "oxlint": "^1.43.0",
     "postcss": "^8.5.6",
     "prettier": "^3.6.2",
     "prettier-plugin-packagejson": "^2.5.18",
@@ -58,5 +56,10 @@
     "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3",
     "vite": "^7.0.3"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }

@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @config '../tailwind.config.js';
 
@@ -7,29 +7,29 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'SalesforceSans';
+  font-family: "SalesforceSans";
   src:
-    url('/fonts/salesforce/woff/SalesforceSans-Book.woff2') format('woff2'),
-    url('/fonts/salesforce/woff/SalesforceSans-Book.woff') format('woff');
+    url("/fonts/salesforce/woff/SalesforceSans-Book.woff2") format("woff2"),
+    url("/fonts/salesforce/woff/SalesforceSans-Book.woff") format("woff");
   font-display: swap;
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: 'SalesforceSans';
+  font-family: "SalesforceSans";
   src:
-    url('/fonts/salesforce/woff/SalesforceSans-Semibold.woff2') format('woff2'),
-    url('/fonts/salesforce/woff/SalesforceSans-Semibold.woff') format('woff');
+    url("/fonts/salesforce/woff/SalesforceSans-Semibold.woff2") format("woff2"),
+    url("/fonts/salesforce/woff/SalesforceSans-Semibold.woff") format("woff");
   font-display: swap;
   font-style: medium;
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Fira Code';
+  font-family: "Fira Code";
   src:
-    url('/fonts/firacode/woff2/FiraCode-Regular.woff2') format('woff2'),
-    url('/fonts/firacode/woff/FiraCode-Regular.woff') format('woff');
+    url("/fonts/firacode/woff2/FiraCode-Regular.woff2") format("woff2"),
+    url("/fonts/firacode/woff/FiraCode-Regular.woff") format("woff");
   font-display: swap;
   font-style: normal;
   font-weight: 400;
@@ -41,14 +41,14 @@ body {
     system-ui,
     -apple-system,
     BlinkMacSystemFont,
-    'Segoe UI',
-    'Open Sans',
-    'Helvetica Neue',
+    "Segoe UI",
+    "Open Sans",
+    "Helvetica Neue",
     sans-serif;
 }
 
 code {
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
 }
 
 @layer utilities {

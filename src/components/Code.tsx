@@ -1,9 +1,9 @@
-import { createHighlighter, ThemeRegistrationResolved } from 'shiki';
-import Licht from '../themes/licht.json' with { type: 'json' };
-import Dunkel from '../themes/dunkel.json' with { type: 'json' };
+import { createHighlighter, ThemeRegistrationResolved } from "shiki";
+import Licht from "../themes/licht.json" with { type: "json" };
+import Dunkel from "../themes/dunkel.json" with { type: "json" };
 
 const highlighter = await createHighlighter({
-  langs: ['js', 'ts', 'tsx'],
+  langs: ["js", "ts", "tsx"],
   themes: [
     Licht as unknown as ThemeRegistrationResolved,
     Dunkel as unknown as ThemeRegistrationResolved,
@@ -16,10 +16,10 @@ export default function Code({ code }: { code: string }) {
       <div
         dangerouslySetInnerHTML={{
           __html: highlighter.codeToHtml(code, {
-            lang: 'tsx',
+            lang: "tsx",
             themes: {
-              dark: 'Dunkel',
-              light: 'Licht',
+              dark: "Dunkel",
+              light: "Licht",
             },
           }),
         }}

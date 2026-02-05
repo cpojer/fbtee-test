@@ -60,8 +60,8 @@ npm install -D @vitejs/plugin-react
 In your `vite.config.ts`:
 
 ```ts
-import fbteePreset from '@nkzw/babel-preset-fbtee';
-import react from '@vitejs/plugin-react';
+import fbteePreset from "@nkzw/babel-preset-fbtee";
+import react from "@vitejs/plugin-react";
 
 export default {
   plugins: [
@@ -79,10 +79,10 @@ export default {
 If you are not using `@vitejs/plugin-react`, for example, because you are using the latest version of React Router in framework mode, you can use `vite-plugin-babel` instead:
 
 ```tsx
-import fbteePreset from '@nkzw/babel-preset-fbtee';
-import { reactRouter } from '@react-router/dev/vite';
-import { defineConfig } from 'vite';
-import babel from 'vite-plugin-babel';
+import fbteePreset from "@nkzw/babel-preset-fbtee";
+import { reactRouter } from "@react-router/dev/vite";
+import { defineConfig } from "vite";
+import babel from "vite-plugin-babel";
 
 export default defineConfig({
   plugins: [
@@ -100,7 +100,7 @@ Create a `babel.config.js` file in the root of your Next.js project and add the 
 
 ```tsx
 export default {
-  presets: ['next/babel', '@nkzw/babel-preset-fbtee'],
+  presets: ["next/babel", "@nkzw/babel-preset-fbtee"],
 };
 ```
 
@@ -155,13 +155,13 @@ If you are not using a translation provider, you can also run `fbtee prepare-tra
 **fbtee**'s runtime can manage the currently selected locale for you through the `<LocaleContext />` component. All you need to do is define the available languages, the locales provided by the browser or device, and a function to load translations for a given locale:
 
 ```tsx
-import { getLocales } from 'expo-localization';
-import { createLocaleContext } from 'fbtee';
+import { getLocales } from "expo-localization";
+import { createLocaleContext } from "fbtee";
 
 // Define the available languages in your app:
 const availableLanguages = new Map([
-  ['en_US', 'English'],
-  ['ja_JP', '日本語 (Japanese)'],
+  ["en_US", "English"],
+  ["ja_JP", "日本語 (Japanese)"],
 ]);
 
 // Web:
@@ -171,8 +171,8 @@ const clientLocalesRN = getLocales().map(({ languageTag }) => languageTag);
 
 // A loader function to fetch translations for a given locale:
 const loadLocale = async (locale: string) => {
-  if (locale === 'ja_JP') {
-    return (await import('./translations/ja_JP.json')).default.ja_JP;
+  if (locale === "ja_JP") {
+    return (await import("./translations/ja_JP.json")).default.ja_JP;
   }
 
   return {};
@@ -195,7 +195,7 @@ const MyAppEntryPoint = () => (
 If you need to access the current locale or set the locale, you can use the `useLocaleContext` hook:
 
 ```tsx
-import { useLocaleContext } from 'fbtee';
+import { useLocaleContext } from "fbtee";
 
 const MyComponent = () => {
   const { locale, setLocale } = useLocaleContext();
@@ -203,7 +203,7 @@ const MyComponent = () => {
   return (
     <div>
       <p>Current Locale: {locale}</p>
-      <button onClick={() => setLocale('ja_JP')}>Switch to Japanese</button>
+      <button onClick={() => setLocale("ja_JP")}>Switch to Japanese</button>
     </div>
   );
 };
@@ -232,8 +232,8 @@ const { getLocale, setLocale } = setupLocaleContext({
 });
 
 // Now you can call `getLocale` and `setLocale` anytime, even outside of React components.
-if (getLocale() === 'en_US') {
-  setLocale('ja_JP'); // Switch to Japanese locale
+if (getLocale() === "en_US") {
+  setLocale("ja_JP"); // Switch to Japanese locale
 }
 ```
 
@@ -253,20 +253,20 @@ createLocaleContext({
 If you need to adjust the user's gender dynamically, you can use the `setGender` function provided by the `useLocaleContext` hook:
 
 ```tsx
-import { useLocaleContext } from 'fbtee';
+import { useLocaleContext } from "fbtee";
 
 const GenderSelector = () => {
   const { gender, setGender } = useLocaleContext();
 
   return (
     <div>
-      <button onClick={() => setGender('male')}>
+      <button onClick={() => setGender("male")}>
         <fbt desc="Male gender">Male</fbt>
       </button>
-      <button onClick={() => setGender('female')}>
+      <button onClick={() => setGender("female")}>
         <fbt desc="Female gender">Female</fbt>
       </button>
-      <button onClick={() => setGender('unknown')}>
+      <button onClick={() => setGender("unknown")}>
         <fbt desc="Unknown gender">Unknown</fbt>
       </button>
     </div>
@@ -279,14 +279,14 @@ const GenderSelector = () => {
 Finally, if you are using something other than React, or need even more control over how **fbtee** is configured, you can use the `setupFbtee` function. This function allows you to set up **fbtee** with custom hooks and translations:
 
 ```tsx
-import { IntlVariations, setupFbtee } from 'fbtee';
-import translations from './translations.json';
+import { IntlVariations, setupFbtee } from "fbtee";
+import translations from "./translations.json";
 
 setupFbtee({
   hooks: {
     getViewerContext: () => ({
       GENDER: IntlVariations.GENDER_UNKNOWN,
-      locale: 'en_US',
+      locale: "en_US",
     }),
   },
   translations,
@@ -327,15 +327,10 @@ const Greeting = () => (
 
 ```tsx
 <fbt desc="Feed item">
-  <fbt:list items={users} name="userList" />{' '}
-  <fbt:plural
-    count={users.length}
-    many="are"
-    name="number of players"
-    showCount="no"
-  >
+  <fbt:list items={users} name="userList" />{" "}
+  <fbt:plural count={users.length} many="are" name="number of players" showCount="no">
     is
-  </fbt:plural>{' '}
+  </fbt:plural>{" "}
   playing on
   <fbt:param name="mapName">{game.mapName}</fbt:param>
 </fbt>
@@ -387,7 +382,7 @@ const Greeting = ({ name }) => (
 <fbt:list
   conjunction="or"
   delimiter="comma"
-  items={['Alice', 'Bob', <CharlieNameExampleComponent key="charlieUserID" />]}
+  items={["Alice", "Bob", <CharlieNameExampleComponent key="charlieUserID" />]}
   name="userList"
 /> // "Alice, Bob, or Charlie"
 ```
@@ -395,9 +390,9 @@ const Greeting = ({ name }) => (
 The default conjunction is "and", and the default delimiter is "comma". You can use "or" or "none" as conjunction, and "bullet", "comma", or "semicolon" as delimiters. The `name` attribute is required to provide context for translators. **fbtee** also exports a `list` function that can be used in contexts outside of React:
 
 ```tsx
-import { list } from 'fbtee';
+import { list } from "fbtee";
 
-const userList = list(['Alice', 'Bob', 'Charlie'], 'or', 'comma');
+const userList = list(["Alice", "Bob", "Charlie"], "or", "comma");
 ```
 
 ### Singular & Plural Forms
@@ -438,12 +433,9 @@ You can use `<fbt:pronoun>` to handle pronouns in your strings. This is particul
 In some situations, you may want to use **fbtee** to represent plain text strings without any React components, for example when using alert dialogs or HTML attributes like `placeholder`. For these situations, you can use the `fbs()` function, which is a subset of `fbt` that only supports plain text.
 
 ```tsx
-import { fbs } from 'fbtee';
+import { fbs } from "fbtee";
 
-<input
-  type="text"
-  placeholder={fbs('Enter your name', 'Placeholder for name input')}
-/>;
+<input type="text" placeholder={fbs("Enter your name", "Placeholder for name input")} />;
 ```
 
 ### Extracting Strings & Translating
@@ -553,7 +545,7 @@ If you know the user's locale ahead of time, you can set it when creating the `L
 
 ```tsx
 // Read the user locale from localStorage etc.
-const userLocale = localStorage.getItem('locale');
+const userLocale = localStorage.getItem("locale");
 const LocaleContext = createLocaleContext({
   availableLanguages,
   clientLocales: [userLocale, navigator.language, ...navigator.languages],
@@ -565,8 +557,8 @@ Note that if you are picking the locale ahead of time like this, you need to man
 
 ```tsx
 const loadLocale = async (locale: string) => {
-  if (locale === 'ja_JP') {
-    return (await import('./translations/ja_JP.json')).default.ja_JP;
+  if (locale === "ja_JP") {
+    return (await import("./translations/ja_JP.json")).default.ja_JP;
   }
   return {};
 };
@@ -586,7 +578,7 @@ const LocaleContext = createLocaleContext({
 If you have to wait for data from your server to determine the user's locale, you can use the `setLocale` function provided by `useLocaleContext` to set the locale after the initial render:
 
 ```tsx
-import { useLocaleContext } from 'fbtee';
+import { useLocaleContext } from "fbtee";
 
 const Root = () => {
   // Fetch the locale from the server.
