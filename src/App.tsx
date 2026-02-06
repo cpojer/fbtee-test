@@ -160,8 +160,8 @@ export default function App() {
               An internationalization for JavaScript & React designed to be{' '}
               <span className="font-semibold text-purple-600">powerful</span>,{' '}
               <span className="font-semibold text-indigo-600">flexible</span>,
-              and{' '}
-              <span className="font-semibold text-pink-600">intuitive</span>.
+              and <span className="font-semibold text-pink-600">intuitive</span>
+              .
             </fbt>
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
